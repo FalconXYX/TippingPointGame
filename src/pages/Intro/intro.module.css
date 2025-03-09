@@ -1,0 +1,33 @@
+@import "../../var.css";
+
+.container {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    align-items: center;
+
+}
+
+.bgImg {
+    display: flex;
+    align-items: flex-start;
+    height: 600px;
+    align-items: center;
+}
+
+
+.buttonText {
+    font-family: var(--font-mina);
+    font-size: 18px;
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}

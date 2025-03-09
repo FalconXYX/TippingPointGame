@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+
+:root {
+    /* Color*/
+    --main-text-color: #ffff;
+    --gray--text: #242424;
+
+
+    /* Font */
+    --font-mina: "Mina", sans-serif;
+}
