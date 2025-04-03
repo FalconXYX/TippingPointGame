@@ -8,15 +8,11 @@
     gap: 40px;
     align-self: stretch;
     align-items: center;
+    text-align: center;
 
 }
 
-.bgImg {
-    display: flex;
-    align-items: flex-start;
-    height: 600px;
-    align-items: center;
-}
+
 
 
 .buttonText {
@@ -30,4 +26,27 @@
     display: flex;
     flex-direction: row;
     gap: 80px;
+}
+
+.titleText {
+    font-family: var(--font-mina);
+    font-size: 48px;
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+
+.bodyText {
+    font-family: var(--font-mina);
+    font-size: 18px;
+    color: var(--main-text-color);
+    font-weight: 600;
+
+}
+
+.textRow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    text-align: center;
 }

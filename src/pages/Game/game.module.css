@@ -2,10 +2,9 @@
 
 .container {
     display: flex;
-    padding: 16px;
+    padding: 4px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
     align-self: stretch;
     align-items: center;
 
@@ -18,6 +17,11 @@
     align-items: center;
 }
 
+.title {
+    font-family: var(--font-mina);
+    font-size: 1rem;
+
+}
 
 .buttonText {
     font-family: var(--font-mina);
@@ -30,4 +34,47 @@
     display: flex;
     flex-direction: row;
     gap: 80px;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.infoRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    font-family: var(--font-mina);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: var(--background-paper);
+    border: 2px solid #000;
+    box-shadow: 24px;
+    padding: 4px;
+    text-align: center;
+
+}
+
+.scoreList {
+    font-family: var(--font-mina);
+    list-style: none;
+    /* Remove list styling */
+    display: flex;
+    /* Make it horizontal */
+    flex-direction: row;
+    /* Ensure items are in a row */
+    gap: 10px;
+    /* Add spacing between items if needed */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
 }

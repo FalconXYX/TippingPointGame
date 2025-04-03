@@ -1,0 +1,100 @@
+{
+  "card1": {
+    "name": "Bribery 1",
+    "description": "Bribe some government employees to swing things in your favor",
+    "type": "s",
+    "effect": 2,
+    "cost": 3
+  },
+
+  "card2": {
+    "name": "Bribery 2",
+    "description": "Bribe local politicians to swing things in your favor",
+    "type": "s",
+    "effect": 3,
+    "cost": 4
+  },
+  "card3": {
+    "name": "Bribery 3",
+    "description": "Bribe federal politicians to massively swing things in your favor",
+    "type": "s",
+    "effect": 6,
+    "cost": 6
+  },
+  "card4": {
+    "name": "Defund 1",
+    "description": "Don't pay taxes to defund government regulatory bodies",
+    "type": "s",
+    "effect": -2,
+    "cost": 3
+  },
+
+  "card5": {
+    "name": "Defund 2",
+    "description": "Embezzle money from a government regulatory body",
+    "type": "s",
+    "effect": -3,
+    "cost": 4
+  },
+  "card6": {
+    "name": "Defund 3",
+    "description": "Pay to shut down a government regulatory body",
+    "type": "s",
+    "effect": -6,
+    "cost": 6
+  },
+  "card7": {
+    "name": "Dividends",
+    "description": "Earn some money by cashing in on dividends from your investments",
+    "type": "i",
+    "effect": 4,
+    "cost": 0
+  },
+
+  "card8": {
+    "name": "Insider Trading",
+    "description": "Use insider information to make a profit off of retail investors",
+    "type": "i",
+    "effect": 3,
+    "cost": 0
+  },
+  "card9": {
+    "name": "Corporate Espionage",
+    "description": "Steal trade secrets from a competitor and sell them at a higher price",
+    "type": "i",
+    "effect": 4,
+    "cost": 0
+  },
+  "card10": {
+    "name": "Media Abuse",
+    "description": "Buy a media company and support hateful propaganda and drown out the Activists(Reduce Their Influence)",
+    "type": "d",
+    "target": "Activist",
+    "effect": -1,
+    "cost": 6
+  },
+  "card11": {
+    "name": "Charity",
+    "description": "Support charities that help bring people together and promote peace drowning out the Anarchists(Reduce Their Influence)",
+    "type": "d",
+    "target": "Anarchist",
+    "effect": -1,
+    "cost": 6
+  },
+  "card12": {
+    "name": "Puppet Politician",
+    "description": "Fund a politician to push your agenda and arrest alot of the Activists(Reduce Their Influence)",
+    "type": "d",
+    "target": "Activist",
+    "effect": -2,
+    "cost": 10
+  },
+  "card13": {
+    "name": "Puppet Politician",
+    "description": "Fund a politician to push your agenda and arrest alot of the Anarchists(Reduce Their Influence)",
+    "type": "d",
+    "target": "Anarchist",
+    "effect": -2,
+    "cost": 10
+  }
+}
