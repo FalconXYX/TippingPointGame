@@ -1,0 +1,109 @@
+{
+  "card1": {
+    "name": "Sabotage 1",
+    "description": "Destroy key infrastructure to destabilize the region",
+    "type": "s",
+    "effect": -4,
+    "cost": 3
+  },
+
+  "card2": {
+    "name": "Sabotage 2",
+    "description": "Initiate a series of protests to disrupt order",
+    "type": "s",
+    "effect": -6,
+    "cost": 4
+  },
+
+  "card3": {
+    "name": "Sabotage 3",
+    "description": "Lead a rebellion to overthrow governmental structures",
+    "type": "s",
+    "effect": -10,
+    "cost": 6
+  },
+
+  "card4": {
+    "name": "Chaos 1",
+    "description": "Spread misinformation to create confusion and unrest",
+    "type": "s",
+    "effect": -5,
+    "cost": 3
+  },
+
+  "card5": {
+    "name": "Chaos 2",
+    "description": "Fuel riots and rebellion to further destabilize regions",
+    "type": "s",
+    "effect": -7,
+    "cost": 4
+  },
+
+  "card6": {
+    "name": "Chaos 3",
+    "description": "Overthrow key figures to plunge society into anarchy",
+    "type": "s",
+    "effect": -11,
+    "cost": 6
+  },
+
+  "card7": {
+    "name": "Looting",
+    "description": "Gain resources from widespread looting and chaos",
+    "type": "i",
+    "effect": 4,
+    "cost": 0
+  },
+
+  "card8": {
+    "name": "Anarchist Network",
+    "description": "Activate a network of underground supporters for sabotage",
+    "type": "i",
+    "effect": 5,
+    "cost": 0
+  },
+
+  "card9": {
+    "name": "Black Market",
+    "description": "Trade stolen goods on the black market for influence",
+    "type": "i",
+    "effect": 6,
+    "cost": 0
+  },
+
+  "card10": {
+    "name": "Civil Disobedience",
+    "description": "Organize mass vandalism to drain influence from the Tycoons",
+    "type": "d",
+    "target": "tycoon",
+    "effect": -1,
+    "cost": 4
+  },
+
+  "card11": {
+    "name": "Disrupt the System",
+    "description": "Create widespread unrest to disrupt the Activists' efforts",
+    "type": "d",
+    "target": "activist",
+    "effect": -1,
+    "cost": 4
+  },
+
+  "card12": {
+    "name": "Revolution",
+    "description": "Unleash full-scale boycot to diminish the Tycoons' control",
+    "type": "d",
+    "target": "tycoon",
+    "effect": -2,
+    "cost": 8
+  },
+
+  "card13": {
+    "name": "Revolutionary Forces",
+    "description": "Unite rebellious groups to strike down the Activists",
+    "type": "d",
+    "target": "activist",
+    "effect": -2,
+    "cost": 8
+  }
+}
